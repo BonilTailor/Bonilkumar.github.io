@@ -379,6 +379,7 @@ section .button button:hover{
 
 /* Hobbies and Interests CSS */
 .hobbies{
+  background: #F0F8FF;
   font-family: 'Poppins', sans-serif;
 }
 .hobbies .hobbies{
@@ -395,7 +396,7 @@ section .button button:hover{
 
 /* Contact Me CSS */
 .contact{
-  background: #F0F8FF;
+  
 }
 .contact .content{
   margin: 0 auto;
