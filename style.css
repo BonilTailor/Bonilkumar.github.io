@@ -376,6 +376,21 @@ section .button button:hover{
 .services .boxes .box:hover p{
   color: #fff;
 }
+
+/* Hobbies and Interests CSS */
+.hobbies{
+  
+}
+.hobbies .hobbies{
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.hobbies .text{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
 /* Contact Me CSS */
 .contact{
   background: #F0F8FF;
