@@ -396,7 +396,7 @@ section .button button:hover{
 
 /* Contact Me CSS */
 .contact{
-  
+  font-family: 'Poppins', sans-serif;
 }
 .contact .content{
   margin: 0 auto;
