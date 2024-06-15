@@ -395,14 +395,14 @@ section .button button:hover{
 }
 
 /* Contact Me CSS */
-.contact{
+.cont{
   font-family: 'Poppins', sans-serif;
 }
-.contact .content{
+.cont .content{
   margin: 0 auto;
   padding: 30px 0;
 }
-.contact .text{
+.cont .text{
   width: 80%;
   text-align: center;
   margin: auto;
@@ -533,7 +533,7 @@ footer .text span a:hover{
     margin: 20px 0;
     width: 100%;
   }
-  .contact .text{
+  .cont .text{
     width: 100%;
   }
   .hobbies .text{
