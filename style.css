@@ -289,7 +289,7 @@ section .button button:hover{
    align-items: center;
  }
  .skills-details .text{
-   width: 49%;
+   width: 45%;
  }
  .skills-details p{
    color: #0E2431;
@@ -312,17 +312,17 @@ section .button button:hover{
   margin: 0 6px;
 }
 .skills-details .boxes{
-  width: 47%;
+  width: 50%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .skills-details .box{
-  width: calc(100% / 2 - 10px);
-  margin: 10px 0;
+  width: calc(100% / 2 - 7px);
+  margin: 7px 0;
 }
 .skills-details .boxes .topic{
-  font-size: 20px;
+  font-size: 17px;
   color: #4070f4;
 }
 
