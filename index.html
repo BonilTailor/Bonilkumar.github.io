@@ -193,21 +193,39 @@
        <div class="box">
          <div class="icon">
            <!-- <i class="fas fa-tablet-alt"></i> -->
-         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <!-- Gradient definitions -->
-  <linearGradient id="dbserver-original-a" gradientUnits="userSpaceOnUse" x1="70.252" y1="1237.476" x2="170.659" y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)">
-    <stop offset="0" stop-color="#5A9FD4"/>
-    <stop offset="1" stop-color="#306998"/>
-  </linearGradient>
-  <linearGradient id="dbserver-original-b" gradientUnits="userSpaceOnUse" x1="209.474" y1="1098.811" x2="173.62" y2="1149.537" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)">
-    <stop offset="0" stop-color="#FFD43B"/>
-    <stop offset="1" stop-color="#FFE873"/>
-  </linearGradient>
-  <!-- Database shape -->
-  <path fill="url(#dbserver-original-a)" d="M80 10h-32c-2.209 0-4 1.791-4 4v28c0 2.209 1.791 4 4 4h32c2.209 0 4-1.791 4-4V14c0-2.209-1.791-4-4-4z"/>
-  <!-- Server shape -->
-  <path fill="url(#dbserver-original-b)" d="M96 50H32c-4.418 0-8 3.582-8 8v36c0 4.418 3.582 8 8 8h64c4.418 0 8-3.582 8-8V58c0-4.418-3.582-8-8-8z"/>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Background -->
+  <rect x="0" y="0" width="128" height="128" fill="#FFFFFF"/>
+  
+  <!-- Server Body -->
+  <rect x="32" y="40" width="64" height="48" fill="#306998" rx="8"/>
+  
+  <!-- Database Body -->
+  <rect id="database" x="44" y="16" width="40" height="24" fill="#5A9FD4" rx="4">
+    <animate attributeName="y" values="16; 14; 16" dur="0.6s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Database Base -->
+  <rect x="40" y="40" width="48" height="8" fill="#FFE873" rx="4"/>
+  
+  <!-- Server Lights -->
+  <circle cx="40" cy="56" r="4" fill="#FFD43B">
+    <animate attributeName="fill" values="#FFD43B; #FFFFFF; #FFD43B" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="56" cy="56" r="4" fill="#FFD43B">
+    <animate attributeName="fill" begin="0.2s" values="#FFD43B; #FFFFFF; #FFD43B" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="72" cy="56" r="4" fill="#FFD43B">
+    <animate attributeName="fill" begin="0.4s" values="#FFD43B; #FFFFFF; #FFD43B" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Interaction -->
+  <style>
+    #database:hover {
+      fill: #4CAF50;
+    }
+  </style>
 </svg>
+
 
 </div>
        <div class="topic">Database Management</div>
