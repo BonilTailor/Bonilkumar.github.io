@@ -281,7 +281,7 @@ section .button button:hover{
    background: #F0F8FF;
  }
  .skills .content{
-   padding: 30px 0;
+   padding: 40px 0;
  }
  .skills .skills-details{
    display: flex;
@@ -289,7 +289,7 @@ section .button button:hover{
    align-items: center;
  }
  .skills-details .text{
-   width: 40%;
+   width: 50%;
  }
  .skills-details p{
    color: #0E2431;
@@ -312,17 +312,17 @@ section .button button:hover{
   margin: 0 6px;
 }
 .skills-details .boxes{
-  width: 55%;
+  width: 45%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .skills-details .box{
-  width: calc(100% / 2 - 5px);
-  margin: 5px 0;
+  width: calc(100% / 2 - 20px);
+  margin: 20px 0;
 }
 .skills-details .boxes .topic{
-  font-size: 17px;
+  font-size: 20px;
   color: #4070f4;
 }
 
