@@ -319,7 +319,7 @@ section .button button:hover{
 }
 .skills-details .box{
   width: calc(100% / 2 );
-  margin: 0px 0;
+  margin: 5px 0;
 }
 .skills-details .boxes .topic{
   font-size: 17px;
